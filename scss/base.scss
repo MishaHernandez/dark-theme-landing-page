@@ -3,7 +3,13 @@
 }
 
 body {
-    font-size: 14px;
     font-family: 'Open Sans';
+    font-size: 14px;
     font-weight: 400;
+
+    background-color: $dark-blue-main-bg;
+}
+
+img {
+    width: 100%;
 }

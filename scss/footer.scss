@@ -1,8 +1,10 @@
 .attribution {
     font-size: 11px;
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
-    a {
+    &__link {
         color: hsl(228, 45%, 44%);
     }
 }
