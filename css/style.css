@@ -372,4 +372,14 @@ img {
   width: 100%;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.attribution__link {
+  color: #3e52a3;
+}
+
 /*# sourceMappingURL=style.css.map */
