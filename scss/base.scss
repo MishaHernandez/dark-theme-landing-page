@@ -25,4 +25,10 @@ header {
     margin-right: auto;
 }
 
-footer {}
+footer {
+    background-color: $dark-blue-footer-bg;
+
+    svg {
+        fill: $white;
+    }
+}

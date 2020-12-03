@@ -384,6 +384,13 @@ header {
   margin-right: auto;
 }
 
+footer {
+  background-color: #0b1523;
+}
+footer svg {
+  fill: white;
+}
+
 .button {
   display: inline-block;
   width: 80%;
@@ -429,6 +436,156 @@ header {
 }
 .intro__paragraph {
   line-height: 1.5;
+}
+
+.service {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.service__illustration {
+  width: auto;
+}
+.service__subtitle {
+  font-size: 18px;
+  font-family: "Raleway";
+}
+.service__paragraph {
+  line-height: 1.5;
+}
+
+.section-2 {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-2__subtitle {
+  font-size: 18px;
+  font-family: "Raleway";
+}
+.section-2__paragraph {
+  line-height: 1.5;
+}
+.section-2__link {
+  color: #65e2d9;
+  font-size: 13px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid;
+  display: inline-flex;
+  align-items: center;
+}
+.section-2__link img {
+  width: auto;
+  margin-left: 6px;
+}
+
+.testimonial {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-color: #202a3c;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+}
+.card__paragraph {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 0;
+}
+.card__profile {
+  display: flex;
+  align-items: center;
+}
+.card__profile-img {
+  width: 1.6rem;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.card__profile-name {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+.card__profile-position {
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ad {
+  text-align: center;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  background-color: #1c2431;
+}
+.ad__subtitle {
+  font-size: 18px;
+  font-family: "Raleway";
+}
+.ad__paragraph {
+  line-height: 1.5;
+}
+.ad__input {
+  width: 100%;
+  font-size: 12px;
+  padding: 1rem 2rem;
+  border-style: none;
+  border-radius: 2rem;
+  margin-bottom: 1.5rem;
+}
+.ad__button {
+  width: 100%;
+}
+
+.logo-footer {
+  margin-top: 8rem;
+  width: auto;
+}
+
+.contact__info {
+  font-size: 1rem;
+  display: flex;
+  align-items: flex-start;
+}
+.contact__info svg {
+  flex-shrink: 0;
+  margin-right: 1.5rem;
+}
+
+.site {
+  display: inline-grid;
+  font-size: 1rem;
+  row-gap: 1rem;
+}
+.site__link:nth-child(4) {
+  margin-bottom: 2rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+.social__link {
+  width: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 6px;
+  margin: 0 6px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.social__link svg {
+  width: 14px;
+  height: 14px;
 }
 
 .attribution {

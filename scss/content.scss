@@ -1,0 +1,111 @@
+.service {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+    &__illustration {
+        width: auto;
+    }
+    &__subtitle {
+        font-size: 18px;
+        font-family: $raleway;
+    }
+    &__paragraph {
+        line-height: 1.5;
+    }
+}
+
+.section-2 {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__subtitle {
+        font-size: 18px;
+        font-family: $raleway;
+    }
+    &__paragraph {
+        line-height: 1.5;
+    }
+    &__link {
+        color: $cyan-inside-gradient;
+        font-size: 13px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid;
+
+        display: inline-flex;
+        align-items: center;
+
+        img {
+            width: auto;
+            margin-left: 6px;
+        }
+    }
+}
+
+.testimonial {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card {
+    background-color: $dark-blue-testimonials-bg;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 4px;
+
+    &__paragraph {
+        font-size: 12px;
+        line-height: 1.5;
+        margin-top: 0;
+    }
+    &__profile {
+        display: flex;
+        align-items: center;
+
+        &-img {
+            width: 1.6rem;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        &-name {
+            font-size: 12px;
+            font-weight: 700;
+            margin-top: 0;
+            margin-bottom: 2px;
+        }
+        &-position {
+            font-size: 10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+}
+.ad {
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    background-color: $dark-blue-intro-email-bg;
+
+    &__subtitle {
+        font-size: 18px;
+        font-family: $raleway;
+    }
+    &__paragraph {
+        line-height: 1.5;
+    }
+    &__input {
+        width: 100%;
+        font-size: 12px;
+        padding: 1rem 2rem;
+        border-style: none;
+        border-radius: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    &__button {
+        width: 100%;
+    }
+}
