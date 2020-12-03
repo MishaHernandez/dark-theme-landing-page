@@ -1,0 +1,35 @@
+.logo-header {
+    width: 83px;
+}
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+
+    display: flex;
+
+    &__link {
+        display: block;
+        padding: 4px 8px;
+        font-family: $raleway;
+        font-size: 12px;
+    }
+}
+
+.intro {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    &__title {
+        font-family: $raleway;
+        font-size: 1.5rem;
+    }
+    &__paragraph {
+        line-height: 1.5;
+    }
+}
