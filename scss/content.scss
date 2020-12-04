@@ -2,14 +2,23 @@
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10rem;
     text-align: center;
+
+    &__content {
+        margin-bottom: 5rem;
+
+        &:nth-child(4) {
+            margin-bottom: 0;
+        }
+    }
     
     &__illustration {
         width: auto;
     }
     &__subtitle {
         font-size: 18px;
-        font-family: $raleway;
+        font-family: $font-2;
     }
     &__paragraph {
         line-height: 1.5;
@@ -20,10 +29,15 @@
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10.5rem;
+
+    &__illustration {
+        margin-bottom: 2rem;
+    }
 
     &__subtitle {
         font-size: 18px;
-        font-family: $raleway;
+        font-family: $font-2;
     }
     &__paragraph {
         line-height: 1.5;
@@ -48,6 +62,13 @@
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    
+    &__quotes {
+        position: absolute;
+        width: 1.3rem;
+        top: -1rem;
+    }
 }
 .card {
     background-color: $dark-blue-testimonials-bg;
@@ -87,15 +108,18 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    padding: 1rem;
+    padding: 1.5rem 1.5rem;
     background-color: $dark-blue-intro-email-bg;
+    position: relative;
+    bottom: -140px;
 
     &__subtitle {
         font-size: 18px;
-        font-family: $raleway;
+        font-family: $font-2;
     }
     &__paragraph {
         line-height: 1.5;
+        margin-bottom: 2rem;
     }
     &__input {
         width: 100%;
@@ -107,5 +131,6 @@
     }
     &__button {
         width: 100%;
+        margin-bottom: 1rem;
     }
 }

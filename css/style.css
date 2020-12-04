@@ -410,6 +410,8 @@ footer svg {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .menu {
@@ -428,21 +430,33 @@ footer svg {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 8rem;
   text-align: center;
+  line-height: 1.5;
+}
+.intro__illustration {
+  margin-bottom: 1rem;
 }
 .intro__title {
   font-family: "Raleway";
   font-size: 1.5rem;
 }
 .intro__paragraph {
-  line-height: 1.5;
+  margin-bottom: 2rem;
 }
 
 .service {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10rem;
   text-align: center;
+}
+.service__content {
+  margin-bottom: 5rem;
+}
+.service__content:nth-child(4) {
+  margin-bottom: 0;
 }
 .service__illustration {
   width: auto;
@@ -459,6 +473,10 @@ footer svg {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10.5rem;
+}
+.section-2__illustration {
+  margin-bottom: 2rem;
 }
 .section-2__subtitle {
   font-size: 18px;
@@ -484,6 +502,12 @@ footer svg {
   width: 75%;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+}
+.testimonial__quotes {
+  position: absolute;
+  width: 1.3rem;
+  top: -1rem;
 }
 
 .card {
@@ -523,8 +547,10 @@ footer svg {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  padding: 1rem;
+  padding: 1.5rem 1.5rem;
   background-color: #1c2431;
+  position: relative;
+  bottom: -140px;
 }
 .ad__subtitle {
   font-size: 18px;
@@ -532,6 +558,7 @@ footer svg {
 }
 .ad__paragraph {
   line-height: 1.5;
+  margin-bottom: 2rem;
 }
 .ad__input {
   width: 100%;
@@ -543,15 +570,27 @@ footer svg {
 }
 .ad__button {
   width: 100%;
+  margin-bottom: 1rem;
+}
+
+.footer-content {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo-footer {
-  margin-top: 8rem;
+  margin-top: 13.5rem;
+  margin-bottom: 1.5rem;
   width: auto;
 }
 
+.contact {
+  margin-bottom: 5.5rem;
+}
 .contact__info {
   font-size: 1rem;
+  line-height: 1.5;
   display: flex;
   align-items: flex-start;
 }
@@ -564,6 +603,7 @@ footer svg {
   display: inline-grid;
   font-size: 1rem;
   row-gap: 1rem;
+  margin-bottom: 5rem;
 }
 .site__link:nth-child(4) {
   margin-bottom: 2rem;
