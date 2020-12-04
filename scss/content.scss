@@ -112,6 +112,8 @@
     background-color: $dark-blue-intro-email-bg;
     position: relative;
     bottom: -140px;
+    border-radius: 8px;
+    box-shadow: 4px 6px 1rem rgb(0, 0, 0, .5);
 
     &__subtitle {
         font-size: 18px;

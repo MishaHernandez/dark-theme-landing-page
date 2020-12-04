@@ -551,6 +551,8 @@ footer svg {
   background-color: #1c2431;
   position: relative;
   bottom: -140px;
+  border-radius: 8px;
+  box-shadow: 4px 6px 1rem rgba(0, 0, 0, 0.5);
 }
 .ad__subtitle {
   font-size: 18px;
