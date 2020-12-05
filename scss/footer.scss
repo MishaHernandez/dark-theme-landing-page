@@ -65,6 +65,12 @@
 
     &__link {
         margin-bottom: 1.3rem;
+
+        @include desktop {
+            &:hover {
+                font-weight: 700;
+            }
+        }
     }
 
     @include tablet {
@@ -94,6 +100,14 @@
         display: inline-flex;
         justify-content: center;
         align-items: center;
+
+        &:hover {
+            border-color: hsl(176, 68%, 64%);
+
+            svg {
+                fill: hsl(176, 68%, 64%);
+            }
+        }
 
         svg {
             width: 14px;

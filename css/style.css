@@ -401,6 +401,12 @@ footer svg {
   padding: 1rem 0;
   border-radius: 2rem;
 }
+@media (min-width: 1200px) {
+  .button:hover {
+    background-image: none;
+    background-color: #94ebe5;
+  }
+}
 
 .logo-header {
   width: 83px;
@@ -455,6 +461,10 @@ footer svg {
 @media (min-width: 1200px) {
   .menu__link {
     font-size: 1rem;
+  }
+  .menu__link:hover {
+    text-decoration: underline;
+    font-weight: 700;
   }
 }
 
@@ -839,6 +849,11 @@ footer svg {
 .site__link {
   margin-bottom: 1.3rem;
 }
+@media (min-width: 1200px) {
+  .site__link:hover {
+    font-weight: 700;
+  }
+}
 @media (min-width: 600px) {
   .site {
     width: 50%;
@@ -868,6 +883,12 @@ footer svg {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+.social__link:hover {
+  border-color: #65e2d9;
+}
+.social__link:hover svg {
+  fill: #65e2d9;
 }
 .social__link svg {
   width: 14px;
