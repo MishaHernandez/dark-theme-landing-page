@@ -423,6 +423,12 @@ footer svg {
   margin-top: 1rem;
   margin-bottom: 2.6rem;
 }
+@media (min-width: 1200px) {
+  .menu-bar {
+    margin-top: 4.56rem;
+    margin-bottom: 4.8rem;
+  }
+}
 
 .menu {
   list-style-type: none;
@@ -460,9 +466,14 @@ footer svg {
   text-align: center;
   line-height: 1.5;
 }
+@media (min-width: 1200px) {
+  .intro {
+    margin-bottom: 10.63rem;
+  }
+}
 .intro__illustration {
   margin-bottom: 1.2rem;
-  max-width: 720px;
+  max-width: 680px;
 }
 .intro__title {
   font-family: "Raleway";
@@ -511,12 +522,14 @@ footer svg {
 }
 @media (min-width: 1200px) {
   .service {
-    margin-bottom: 0;
+    margin-bottom: 2.81rem;
   }
 }
 .service__content {
   margin-bottom: 5rem;
   max-width: 380px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .service__content:nth-child(4) {
   margin-bottom: 0;
@@ -550,6 +563,7 @@ footer svg {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 9.2rem;
   }
 }
 .section-2__illustration {
@@ -612,6 +626,7 @@ footer svg {
 }
 @media (min-width: 1200px) {
   .testimonial {
+    margin-bottom: 40px;
     flex-direction: row;
     width: 83%;
   }
@@ -638,6 +653,9 @@ footer svg {
   .card {
     padding-top: 2rem;
     margin-right: 2.5rem;
+  }
+  .card:last-child {
+    margin-right: 0;
   }
 }
 .card__paragraph {
@@ -762,7 +780,7 @@ footer svg {
 }
 
 .logo-footer {
-  margin-top: 13.5rem;
+  margin-top: 14rem;
   margin-bottom: 1.5rem;
   width: auto;
 }
