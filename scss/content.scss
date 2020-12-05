@@ -238,12 +238,14 @@
     &__button {
         width: 100%;
         margin-bottom: 1rem;
+        border-style: none;
 
         @include big-tablet {
             width: 30%;
         }
         @include desktop {
             width: 25%;
+            cursor: pointer;
         }
     }
 }

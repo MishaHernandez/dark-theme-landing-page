@@ -764,6 +764,7 @@ footer svg {
 .ad__button {
   width: 100%;
   margin-bottom: 1rem;
+  border-style: none;
 }
 @media (min-width: 800px) {
   .ad__button {
@@ -773,6 +774,7 @@ footer svg {
 @media (min-width: 1200px) {
   .ad__button {
     width: 25%;
+    cursor: pointer;
   }
 }
 
