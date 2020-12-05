@@ -1,25 +1,46 @@
 .logo-header {
     width: 83px;
+
+    @include big-tablet {
+        width: 130px;
+    }
+
+    @include desktop {
+        width: 180px;
+    }
 }
 .menu-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    margin-top: 1.5rem;
-    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2.6rem;
 }
 .menu {
     list-style-type: none;
     padding-left: 0;
+    width: 170px;
 
     display: flex;
+    justify-content: space-between;
+
+    @include big-tablet {
+        width: 270px;
+    }
 
     &__link {
         display: block;
-        padding: 4px 8px;
         font-family: $font-2;
         font-size: 12px;
+
+        @include big-tablet {
+            font-size: 14px;
+        }
+
+        @include desktop {
+            font-size: 1rem;
+        }
     }
 }
 
@@ -32,13 +53,33 @@
     line-height: 1.5;
     
     &__illustration {
-        margin-bottom: 1rem;
+        margin-bottom: 1.2rem;
+        max-width: 720px;
     }
     &__title {
         font-family: $font-2;
         font-size: 1.5rem;
+        max-width: 680px;
+
+        @include desktop {
+            font-size: 2.5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
     &__paragraph {
         margin-bottom: 2rem;
+        max-width: 590px;
+
+        @include desktop {
+            font-size: 1.2rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    &__button {
+        @include desktop {
+            width: 280px;
+        }
     }
 }
